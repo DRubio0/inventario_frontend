@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0; /* Asegurarse de que no haya relleno predeterminado */
+  display: flex; /* Habilita Flexbox */
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  justify-content: center; /* Centra contenido verticalmente */
+  align-items: center; /* Centra contenido horizontalmente */
+  min-height: 100vh; /* Mínima altura del viewport */
+  min-width: 320px; /* Mínimo ancho del viewport */
+  background-color: rgb(213, 213, 213); /* Color de fondo gris */
+  font-family: "Arial", sans-serif; /* Tipo de letra opcional */
+  color: #ffffff; /* Color de texto blanco para contraste */
+}
